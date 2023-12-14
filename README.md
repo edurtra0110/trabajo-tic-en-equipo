@@ -1,4 +1,4 @@
-Nombre de la asociación 
+Nombre de la asociación "Planeta Sostenible"
 
 Miembros del equipo: Elia e Isabel Mellado
 
