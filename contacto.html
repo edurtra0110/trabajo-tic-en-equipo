@@ -2,19 +2,19 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="Situación de Aprendizaje por Elia e Isa">
-        <title>Planeta sostenible</title>
+        <meta name="description" content="Actividad 15 por Elia">
+        <title>Actividad 15:Documentación para CSS</title>
         <link rel="stylesheet" href="./css/estilo.css">
     </head>
     
     <body>
         <header>
-         <h1 id="titulo">Planeta sostenible</h1>
+         <h1 id="titulo">Encabezado</h1>
          <nav id="menuPrincipal">
             <ul>
-            <li><a class="enlaceMenuPrincipal" href="./index.html">Inicio</a></li>
-            <li><a class="enlaceMenuPrincipal" href="./nosotros.html">Nosotros</a></li>
-            <li><a class="enlaceMenuPrincipal" href="./contacto.html">Contacto</a></li>
+            <li><a class="enlaceMenuPrincipal" href="#">Enlace 1</a></li>
+            <li><a class="enlaceMenuPrincipal" href="#">Enlace 2</a></li>
+            <li><a class="enlaceMenuPrincipal" href="#">Enlace 3</a></li>
             </ul>
          </nav>
         </header>
@@ -23,10 +23,16 @@
             <section>
             <h2 class="tituloSeccion">Contacto</h2>
                 <article>
-                    <p>Si tienes preguntas, sugerencias o simplemente deseas ponerte en contacto con nosotros, no dudes en llenar el siguiente formulario. Estamos ansiosos por escucharte y trabajar juntos para un futuro más sostenible.
+                    <p>Si necesitas ponerte en contacto con nosotros o tienes dudas,puedes contactar con nosotros a través de este cuestionario. Estamos encantados por aceptar vuestras propuestas y trabajar juntos para mejorar el futuro y tener un futuro más sostenible. </p>
                     </p>
                 </article>
                 <br>
+                
+                <form action="#" method="get">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                   <br>
+                    <!--Campo de Texto-->
                 <label for="Tu nombre">Tu nombre:</label>
                 <input type="text" id="Tu nombre" name="nombre">
                 <br>
@@ -37,12 +43,16 @@
                     <input type="checkbox" id="Por las Redes Sociales">Por las redes sociales</option><br>
                     <input type="checkbox" id="Por publicidda">Por publicidad</option><br>
                     <input type="checkbox" id="Por el boca a boca">Por el boca a boca</option><br>
+                    </fieldset>
                 </select><br>
 
                 <label for="Tu mensaje">Tu mensaje</label><br>
                 <textarea rows=6 cols=40></textarea>
                 <br><br>
-                <button type="submit">Enviar mensaje</button>
+                <!--Botón de envio-->
+             <button type="submit">Enviar mensaje</button>
+              <button type="reset">Limpiar</button>
+        
             </section> 
         </main>
 
