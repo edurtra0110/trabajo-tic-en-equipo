@@ -70,7 +70,7 @@ body {
    /* default hover effect */
 a:hover {
     color:  #570545;
-    background: rgb(0, 255, 0) 255, 136);
+    background: rgb(0, 255, 0) 255, 136;
   }
   
   @media (hover: hover) {
